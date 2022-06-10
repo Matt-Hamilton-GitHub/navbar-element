@@ -39,7 +39,7 @@ const Wrapper = styled.div`
   text-align: center;
   margin: 25px 10px;
   min-height: 300px;
-  background: #354259;
+
   min-width: 100vw;
 
   .project-cards-section {
@@ -49,7 +49,6 @@ const Wrapper = styled.div`
     text-align: center;
     margin: 25px 10px;
     min-height: 300px;
-    background: #354259;
   }
   .svg-icon {
     display: flex;
@@ -58,15 +57,16 @@ const Wrapper = styled.div`
     justify-content: center;
     text-align: center;
     cursor: pointer;
+    color: white;
   }
   .card {
     min-width: 200px;
     min-height: 350px;
-    background: #73777b;
+    background: #293462;
     margin: 35px;
     border-radius: 20px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
-      rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   }
 
   .main {
